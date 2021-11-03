@@ -1,0 +1,161 @@
+.navbar{
+    background: #0c2c55;
+    padding: 30px;
+}
+
+.navbar i{
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand:hover{
+    color: rgb(231, 231, 231);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar .nav-links .nav-item .nav-link{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar .nav-links .nav-item .nav-link:hover{
+    color: rgb(207, 207, 207);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgba(0,0, 0, 0.1);
+}
+
+.top-sec{
+    margin-top: 120px;
+}
+
+.section-pd{
+padding: 40px 0 30px 0;
+}
+
+.section-bg{
+    background-color: rgba(0,0, 0, 0.1);
+}
+
+.section-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #0c2c55;
+}
+
+.section-title h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0c2c55;
+}
+
+.section-title hr{
+    background-color: #0c2c55;
+    width: 80px;
+    height: 3px;
+}
+
+section .card{
+    box-shadow: 0px 0px 5px rgb(146, 146, 146);
+    border: 1px solid rgb(197, 197, 197);
+    transition: all ease-in-out 0.4s;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+section .card .card-title{
+    font-size: 20px;
+}
+
+section .card:hover{
+    box-shadow: 0px 0px 9px rgb(133, 133, 133);
+    border: 1px solid rgb(197, 197, 197);
+    transform: translateY(-10px);
+}
+
+.footer-top{
+    background-color: #071d38;
+    padding: 30px 0px 30px 0px;
+    margin-top: 60px;
+}
+
+.footer-top h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-top p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-top ul li{
+    list-style: none;
+}
+
+.footer-top ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+.footer-top ul li a:hover{
+    color: rgb(180, 180, 180);
+}
+
+.footer-icons a i{
+color: #fff;
+font-size: 28px;
+margin: 4px;
+transition: all ease-in-out 0.2s;
+}
+
+.footer-icons a i:hover{
+    color: rgb(187, 187, 187);
+    transform: scale(1.2);
+}
+
+.footer-bottom{
+    background: #000f22;
+    color: #fff;
+}
+
+.footer-bottom a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover{
+    color: rgb(187, 187, 187);;
+}
+.card-img img{
+    width: 348px;
+    height: 208.66px;
+}
+@media screen and (max-width:1024px) {
+     .card-img img{
+         width: 100%;
+     }
+}
+.container{
+    /* width: 600px;
+    height: 150px; */
+}
+.box{
+    padding: 20px;
+}
